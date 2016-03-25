@@ -4,4 +4,7 @@
 ###支持自动滚动
 ###支持无缝滚动
 ###支持网络加载(需要SDWebImage)
-##欢迎各位Fork~~
+###QAQ~~
+
+#使用方法
+`pod 'LDJCycleScrollView', '~> 1.0.0'`
