@@ -12,13 +12,13 @@
 `pod 'LDJCycleScrollView', '~> 1.0.0'`
 
 ###一句代码即可使用,大致如下
-`    LDJCycleScrollView * _mainScorllView = [LDJCycleScrollView
+    `LDJCycleScrollView * _mainScorllView = [LDJCycleScrollView
                        cycleScrollViewWithFrame:CGRectMake(0, 0, kWidth, 180)
-                       images:@[[UIImage imageNamed:@"img1.jpg"],[UIImage imageNamed:@"img2.jpg"]]
-                       titles:@[@"this is one ",@"this  is two"]
+                       images:images
+                       titles:titles
                        timeInterval:2
                        didSelect:^(NSInteger atIndex) {
                            NSLog(@"%ld",(long)atIndex);
-                       }];
+                       }];`
     
-    [self.view addSubview:_mainScorllView];`
+    `[self.view addSubview:_mainScorllView];`
