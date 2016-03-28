@@ -22,3 +22,8 @@
                        }];`
     
     `[self.view addSubview:_mainScorllView];`
+#致了个谢
+###Tks to the author of HYBLoopScrollView
+###Thank the authors of SDWebImage
+###Thank GitHub
+###Thanks for the Party and the people
